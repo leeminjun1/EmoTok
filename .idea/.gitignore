@@ -6,3 +6,30 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+/EmoTok.iml
+/misc.xml
+/modules.xml
+/vcs.xml
+
+
+# JetBrains IDEs 폴더
+/.idea/
+/.idea_modules/
+/out/
+# 사용자별 설정 파일
+/*.iws
+# 컴파일된 클래스 파일
+/*.class
+# 로그 파일
+/*.log
+# 운영 체제별 파일
+.DS_Store
+Thumbs.db
+# 빌드 디렉토리
+/build/
+# 환경 설정 파일
+/.env
+/.env.local
+/.env.*.local
+# 테스트 출력 디렉토리
+/coverage/
