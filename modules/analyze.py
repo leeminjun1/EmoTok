@@ -26,7 +26,7 @@ def analyze_chat(file_path, my_name, opponent_name):
     # if '시간' in df.columns:
     #     df['시'] = df['시간'].str.split(':').str[0].astype(int)
     # else:
-    #     df['시'] = 0  # 기본값
+    #     df['시'] = 0  # 기본값 
 
     df['날짜'] = pd.to_datetime(df['Date']).dt.date # Date 컬럼을 datetime으로 변환
     df['시'] = pd.to_datetime(df['Date']).dt.hour #Date컬럼에서 시간을 추출
